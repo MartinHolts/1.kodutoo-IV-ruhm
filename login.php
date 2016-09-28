@@ -13,15 +13,15 @@
 	
 	if (isset($_POST["signupEmail"])) {
 		//on olemas
-		// kas epost on tühi
+		// kas epost on tÃ¼hi
 		if (empty ($_POST["signupEmail"])) {
 			
-			//on tühi
-			$signupEmailError = "Väli on kohustuslik!";
+			//on tÃ¼hi
+			$signupEmailError = "VÃ¤li on kohustuslik!";
 		} 
 	}
 	
-	// kas epost on tühi sssss
+	// kas epost on tÃ¼hi sssss
 	
 	
 	$signupPasswordError = "";
@@ -33,18 +33,18 @@
 	
 	if (isset($_POST["signupPassword"])) {
 		//on olemas
-		// kas epost on tühi
+		// kas epost on tÃ¼hi
 		if (empty ($_POST["signupPassword"])) {
 
-			//on tühi
-			$signupPasswordError = "Väli on kohustuslik!";
+			//on tÃ¼hi
+			$signupPasswordError = "VÃ¤li on kohustuslik!";
 		} else {
 			
-			//parool ei olnud tühi
+			//parool ei olnud tÃ¼hi
 			
 			if( strlen($_POST["signupPassword"]) < 8) {
 				
-				$signupPasswordError = "* Parrol peab olema vähemalt 8 tähemärki pikk";
+				$signupPasswordError = "* Parrol peab olema vÃ¤hemalt 8 tÃ¤hemÃ¤rki pikk";
 			}
 		}
 	}
@@ -55,11 +55,11 @@
 
 		if (isset($_POST["signupSurname"])) {
 		//on olemas
-		// kas epost on tühi
+		// kas epost on tÃ¼hi
 		if (empty ($_POST["signupSurname"])) {
 
-			//on tühi
-			$signupSurnameError = "Väli on kohustuslik!";
+			//on tÃ¼hi
+			$signupSurnameError = "VÃ¤li on kohustuslik!";
 		}
 	}
 
@@ -68,11 +68,11 @@
 
 		if (isset($_POST["signupForename"])) {
 		//on olemas
-		// kas epost on tühi
+		// kas epost on tÃ¼hi
 		if (empty ($_POST["signupForename"])) {
 
-			//on tühi
-			$signupForenameError = "Väli on kohustuslik!";
+			//on tÃ¼hi
+			$signupForenameError = "VÃ¤li on kohustuslik!";
 		}
 	}
 
